@@ -22,17 +22,30 @@
   </div>
 
   <ul>
+    <li><a href="#about">About</a></li>
     <li><a href="#projects">Projects</a></li>
     <li><a href="#skills">Skills</a></li>
-    <li><a href="#about">About</a></li>
   </ul>
 </nav>
 
 <!-- HERO -->
 <section class="hero">
   <div class="overlay">
-    <h1>Nuha Rilwan</h1>
-    <p>Software Engineering Student | AI & Backend</p>
+
+    <div class="eyebrow">Software Engineering Portfolio</div>
+
+    <h1>Hi, I'm Nuha Rilwan</h1>
+
+    <p>
+      Software Engineering student focused on backend systems, AI applications, and full-stack development.
+    </p>
+
+    <div class="btn-group">
+  <a class="btn btn-primary" href="assets/cv/NuhaRilwan.pdf" download>
+    Download CV
+  </a>
+</div>
+
   </div>
 </section>
 
@@ -72,7 +85,7 @@
       </div>
 
       <div class="stat-card">
-        <div class="stat-num">5+</div>
+        <div class="stat-num">4</div>
         <div class="stat-label">Projects</div>
       </div>
 
@@ -91,65 +104,163 @@
   </div>
 </section>
 
-<!-- FEATURED PROJECT -->
-<div class="featured-card">
-  <!-- CONTENT -->
-  <div class="featured-content">
+<!--PROJECTS-->
+<section class="featured">
+  <h2>🚀 My Projects</h2>
 
-    <span class="project-tag">AI / COMPUTER VISION</span>
+  <div class="featured-carousel">
 
-    <h3>SignBridge</h3>
+    <!-- PROJECT CARD -->
+    <div class="featured-card">
 
-    <p>
-      SignBridge is a group-based real-time sign language translation system built to bridge the communication gap
-      between hearing-impaired individuals and non-signers. The system uses a Convolutional Neural Network (CNN)
-      to detect hand gestures through a camera feed and translate them into meaningful text in real time.
-      <br><br>
-      The project focuses on improving accessibility through AI-driven communication, with an emphasis on accuracy,
-      responsiveness, and practical real-world use.
-    </p>
-
-    <!-- TECH STACK -->
-    <div class="skills-row" style="margin-top:16px;">
-
-      <div class="skill-chip">
-        <i class="fa-brands fa-python"></i>
-        <span>Python</span>
+      <!-- IMAGE -->
+      <div class="featured-img-wrap">
+        <img src="assets/images/projects/signbridge.jpg" alt="SignBridge">
       </div>
 
-      <div class="skill-chip">
-        <i class="fa-solid fa-brain"></i>
-        <span>CNN / Deep Learning</span>
-      </div>
+      <!-- CONTENT -->
+      <div class="featured-content">
 
-      <div class="skill-chip">
-        <i class="fa-solid fa-camera"></i>
-        <span>OpenCV</span>
-      </div>
+        <span class="project-tag">AI / Final Year Project (Group)</span>
 
-      <div class="skill-chip">
-        <i class="fa-solid fa-code"></i>
-        <span>TensorFlow</span>
-      </div>
+        <h3>SignBridge</h3>
 
+        <p>
+          Real-time sign language translation system using CNN-based gesture recognition.
+          Built as a group final-year project focused on accessibility and human-computer interaction.
+          The system detects hand gestures through a camera feed and converts them into readable text in real time.
+        </p>
+
+        <!-- TECH STACK -->
+        <div class="tech-stack">
+          <span><i class="fa-brands fa-python"></i> Python</span>
+          <span><i class="fa-solid fa-brain"></i> CNN / AI</span>
+          <span><i class="fa-brands fa-html5"></i> HTML</span>
+          <span><i class="fa-brands fa-css3-alt"></i> CSS</span>
+        </div>
+
+        <!-- LINKS -->
+        <div class="project-links">
+          <a href="https://github.com/nuhaaaaaaa24/SignBridge" target="_blank">
+            🔗 GitHub
+          </a>
+        </div>
+
+      </div>
     </div>
 
-    <!-- GITHUB -->
-    <a href="https://github.com/yourusername/SignBridge"
-       target="_blank"
-       class="github-btn">
-      <i class="fa-brands fa-github"></i> View on GitHub
-    </a>
+    <!-- PROJECT CARD -->
+    <div class="featured-card">
+
+      <!-- IMAGE -->
+      <div class="featured-img-wrap">
+        <img src="assets/images/projects/bookbliss.jpg" alt="BookBliss">
+      </div>
+
+      <!-- CONTENT -->
+      <div class="featured-content">
+
+        <span class="project-tag">Full Stack Web App</span>
+
+        <h3>BookBliss</h3>
+
+        <p>
+          BookBliss is a full-stack community platform for readers to connect, share, and track their reading journey.
+          Users can join discussions, participate in challenges, and engage with a shared literary ecosystem designed to
+          make reading more social and interactive.
+        </p>
+
+        <!-- TECH STACK (add this too for consistency) -->
+        <div class="tech-stack">
+          <span><i class="fa-brands fa-php"></i> PHP</span>
+          <span><i class="fa-solid fa-server"></i> Laravel</span>
+          <span><i class="fa-solid fa-database"></i> MySQL</span>
+        </div>
+
+        <!-- LINKS -->
+        <div class="project-links">
+          <a href="https://github.com/nuhaaaaaaa24/BookBliss" target="_blank">
+            🔗 GitHub
+          </a>
+        </div>
+
+      </div>
+    </div>
+
+    <div class="featured-card">
+
+      <!-- IMAGE -->
+      <div class="featured-img-wrap">
+        <img src="assets/images/projects/member.jpg" alt="MembershipManagementSystem">
+      </div>
+
+      <!-- CONTENT -->
+      <div class="featured-content">
+
+        <span class="project-tag">CRUD Operations / Admin features</span>
+
+        <h3>Membership Management System</h3>
+
+        <p>
+          A clean and user-friendly Membership Management System built using Java and Spring Boot.
+          This project helps organizations efficiently handle their members, maintain records, and perform simple CRUD operations through a structured and well-organized backend.        
+        </p>
+
+        <!-- TECH STACK -->
+        <div class="tech-stack">
+          <span><i class="fa-brands fa-java"></i> Java</span>
+          <span><i class="fa-solid fa-leaf"></i> Spring</span>
+          <span><i class="fa-solid fa-database"></i> MySQL</span>
+          <span><i class="fa-brands fa-html5"></i> HTML</span>
+          <span><i class="fa-brands fa-css3-alt"></i> CSS</span>
+        </div>
+
+        <!-- LINKS -->
+        <div class="project-links">
+          <a href="https://github.com/nuhaaaaaaa24/membershipManagementSystem" target="_blank">
+            🔗 GitHub
+          </a>
+        </div>
+
+      </div>
+    </div>
+    <div class="featured-card">
+
+      <!-- IMAGE -->
+      <div class="featured-img-wrap">
+        <img src="assets/images/projects/turtle.jpg" alt="AquaTurtle">
+      </div>
+
+      <!-- CONTENT -->
+      <div class="featured-content">
+
+        <span class="project-tag">Web App</span>
+
+        <h3>AquaTurtle</h3>
+
+        <p>
+          AquaTurtle is a web-based educational platform designed to raise awareness about Sri Lanka’s diverse turtle species and their ecological importance. The website provides structured information on different turtle species, their natural habitats, life cycles, and the major threats they face, including habitat destruction, marine pollution, and illegal poaching.
+        </p>
+
+        <!-- TECH STACK -->
+        <div class="tech-stack">
+          <span><i class="fa-brands fa-html5"></i> HTML</span>
+          <span><i class="fa-brands fa-css3-alt"></i> CSS</span>
+          <span><i class="fa-brands fa-js"></i> JavaScript</span>
+        </div>
+
+        <!-- LINKS -->
+        <div class="project-links">
+          <a href="https://github.com/nuhaaaaaaa24/AquaTurtle" target="_blank">
+            🔗 GitHub
+          </a>
+        </div>
+
+      </div>
+    </div>
 
   </div>
-</div>
-
-<!-- PROJECTS -->
-<section id="projects">
-  <h2>Projects</h2>
-  <div id="project-container"></div>
 </section>
-
 <!-- SKILLS -->
 <section id="skills">
   <h2>Skills</h2>
@@ -220,9 +331,27 @@
 
 <!--footer-->
 <footer>
-  <p>&copy; 2026 Nuha Rilwan. All rights reserved.</p>
-  contact: <a href="mailto:nuharilwan2424@gmail.com">nuharilwan2424@gmail.com</a>
-  number: <a href="tel:0771683918">0771683918</a>
+  <div class="footer-left">
+    <p>&copy; 2026 Nuha Rilwan. All rights reserved.</p>
+  </div>
+
+  <div class="footer-links">
+    <a href="mailto:nuharilwan2424@gmail.com">
+      <i class="fa-solid fa-envelope"></i> Email
+    </a>
+
+    <a href="tel:0771683918">
+      <i class="fa-solid fa-phone"></i> Call
+    </a>
+
+    <a href="https://github.com/nuhaaaaaaa24" target="_blank">
+      <i class="fa-brands fa-github"></i> GitHub
+    </a>
+
+    <a href="https://www.linkedin.com/in/nuharilwan/" target="_blank">
+      <i class="fa-brands fa-linkedin"></i> LinkedIn
+    </a>
+  </div>
 </footer>
 
 <script src="js/projects.js"></script>
