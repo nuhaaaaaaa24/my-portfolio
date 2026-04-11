@@ -49,8 +49,8 @@ This project was built to strengthen full-stack development skills while focusin
 
 ## 📸 Screenshots
 
-> Add screenshots of your project here (very recommended for portfolios)
+### 🏠 Home Page
+![Home Page](./assets/screenshots/hero.png)
 
-```md
-![Home Page](assets/screenshots/hero.png)
-![Dashboard](assets/screenshots/aboutMe.png)
+### 📊 About Page
+![About](./assets/screenshots/aboutMe.png)
