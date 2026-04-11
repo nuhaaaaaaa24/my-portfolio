@@ -12,7 +12,7 @@ It highlights my work in full-stack development, AI-based systems, and backend e
 
 - HTML5
 - CSS3
-- JavaScript (Vanilla)
+- JavaScript
 
 ## Features
 
