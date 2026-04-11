@@ -1,56 +1,74 @@
-# 📚 BookBliss
+# 👨‍💻 My Portfolio
 
-A community-driven platform built for book lovers to connect, share, and grow together through their reading journey.
+A personal developer portfolio showcasing my projects, skills, and journey as a Software Engineering student passionate about building real-world applications.
 
 ---
 
-## ✨ About the Project
+## ✨ About Me
 
-BookBliss is a web platform designed to bring readers together in one space where they can:
+I am a Software Engineering undergraduate passionate about technology, problem-solving, and building impactful software solutions.
 
-- 📖 Explore books and track their reading journey  
-- 🤝 Connect with other readers who share similar interests  
-- 🏆 Participate in reading challenges and community activities  
-- 💬 Share thoughts, reviews, and recommendations  
+I enjoy working on:
+- 🌐 Full-stack web applications  
+- 🤖 AI-based projects  
+- ⚙️ Backend systems and APIs  
+- 📱 Mobile app development  
 
-The goal is to create a simple but meaningful digital space for book enthusiasts to engage, discover, and enjoy literature together.
+My focus is on writing clean, scalable code and continuously improving as a developer.
 
 ---
 
 ## 🛠️ Tech Stack
 
-- 🌐 HTML  
-- 🎨 CSS  
-- ⚙️ JavaScript  
+- 🌐 HTML, CSS, JavaScript  
 - 🧩 Laravel  
+- ☕ Java (Spring Boot basics)  
+- 🐍 Python  
+- 📱 Flutter (basic exposure)  
+- 🗄️ MySQL  
 
 ---
 
-## 🚀 Features
+## 🚀 Featured Projects
 
-- 👤 User authentication & profiles  
-- 📚 Book tracking system  
-- 🏆 Reading challenges  
-- 💬 Community discussions  
-- 🔍 Book discovery features  
+### 📚 BookBliss
+A community platform for readers to connect, share, and engage in reading activities.
 
----
+### 🧠 SignBridge
+AI-based real-time sign language detection and translation system using CNN models.
 
-## 🎯 Purpose
+### 🌊 AquaTurtle
+A web platform raising awareness about turtle conservation in Sri Lanka.
 
-This project was built to strengthen full-stack development skills while focusing on:
-
-- Clean and responsive UI design  
-- Backend development using Laravel  
-- Database-driven application structure  
-- User-focused web experience  
+### 🚶 Wanderlust
+A travel-based platform for solo female travelers to explore safely and plan journeys.
 
 ---
 
 ## 📸 Screenshots
 
 ### 🏠 Home Page
-![Home Page](./assets/screenshots/hero.png)
+![Home](./assets/screenshots/hero.png)
 
-### 📊 About Page
+### 📊 About Section
 ![About](./assets/screenshots/aboutMe.png)
+
+---
+
+## 🎯 Goals
+
+- Improve backend development skills  
+- Build impactful AI + web projects  
+- Contribute more to GitHub  
+- Gain internship/graduate experience  
+
+---
+
+## 👨‍💻 Contact
+
+- GitHub: https://github.com/nuhaaaaaaa24  
+- Email: nuharilwan2424@gmail.com 
+
+---
+
+⭐ *Thanks for visiting my portfolio!*
