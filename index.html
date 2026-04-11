@@ -8,6 +8,7 @@
   <link rel="stylesheet" href="css/variables.css">
   <link rel="stylesheet" href="css/styles.css">
   <link href="https://fonts.googleapis.com/css2?family=Cormorant+Garamond:ital,wght@0,300;0,400;0,600;1,300;1,400&family=DM+Sans:wght@300;400;500&display=swap" rel="stylesheet">
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.0/css/all.min.css">
 </head>
 <body>
 
@@ -37,20 +38,111 @@
 
 <!-- ABOUT -->
 <section id="about">
-  <h2>About Me</h2>
-  <p>Software Engineering student focused on backend systems, AI applications, and building impactful solutions.</p>
+  <h2 class="about-me">About Me</h2>
+
+  <div class="about-grid">
+
+    <div class="about-bio">
+      <p>
+        <i class="fa-solid fa-user"></i>
+        Software Engineering undergraduate at Edith Cowan University with a strong focus on software development, problem-solving, and building practical technology solutions.
+      </p>
+
+      <p>
+        <i class="fa-solid fa-code"></i>
+        Experience in full-stack web applications, mobile apps using Flutter, and backend systems using Laravel and Spring Boot.
+      </p>
+
+      <p>
+        <i class="fa-solid fa-database"></i>
+        Strong understanding of Java, OOP principles, databases, and backend system design.
+      </p>
+
+      <p>
+        <i class="fa-solid fa-rocket"></i>
+        Passionate about building scalable systems, AI applications, and real-world software solutions.
+      </p>
+    </div>
+
+    <div class="about-stats">
+
+      <div class="stat-card">
+        <div class="stat-num">3.1</div>
+        <div class="stat-label">GPA</div>
+      </div>
+
+      <div class="stat-card">
+        <div class="stat-num">5+</div>
+        <div class="stat-label">Projects</div>
+      </div>
+
+      <div class="stat-card">
+        <div class="stat-num">AI</div>
+        <div class="stat-label">Focus Area</div>
+      </div>
+
+      <div class="stat-card">
+        <div class="stat-num">Intern</div>
+        <div class="stat-label">Experience Level</div>
+      </div>
+
+    </div>
+
+  </div>
 </section>
 
 <!-- FEATURED PROJECT -->
-<section class="featured">
-  <h2>🚀 Featured Project</h2>
-  <div class="featured-card">
-    <div>
-      <h3>SignBridge</h3>
-      <p>Real-time sign language translator using CNN for gesture detection and translation.</p>
+<div class="featured-card">
+  <!-- CONTENT -->
+  <div class="featured-content">
+
+    <span class="project-tag">AI / COMPUTER VISION</span>
+
+    <h3>SignBridge</h3>
+
+    <p>
+      SignBridge is a group-based real-time sign language translation system built to bridge the communication gap
+      between hearing-impaired individuals and non-signers. The system uses a Convolutional Neural Network (CNN)
+      to detect hand gestures through a camera feed and translate them into meaningful text in real time.
+      <br><br>
+      The project focuses on improving accessibility through AI-driven communication, with an emphasis on accuracy,
+      responsiveness, and practical real-world use.
+    </p>
+
+    <!-- TECH STACK -->
+    <div class="skills-row" style="margin-top:16px;">
+
+      <div class="skill-chip">
+        <i class="fa-brands fa-python"></i>
+        <span>Python</span>
+      </div>
+
+      <div class="skill-chip">
+        <i class="fa-solid fa-brain"></i>
+        <span>CNN / Deep Learning</span>
+      </div>
+
+      <div class="skill-chip">
+        <i class="fa-solid fa-camera"></i>
+        <span>OpenCV</span>
+      </div>
+
+      <div class="skill-chip">
+        <i class="fa-solid fa-code"></i>
+        <span>TensorFlow</span>
+      </div>
+
     </div>
+
+    <!-- GITHUB -->
+    <a href="https://github.com/yourusername/SignBridge"
+       target="_blank"
+       class="github-btn">
+      <i class="fa-brands fa-github"></i> View on GitHub
+    </a>
+
   </div>
-</section>
+</div>
 
 <!-- PROJECTS -->
 <section id="projects">
@@ -61,13 +153,68 @@
 <!-- SKILLS -->
 <section id="skills">
   <h2>Skills</h2>
-  <div class="skills">
-    <span>Java</span>
-    <span>Python</span>
-    <span>JavaScript</span>
-    <span>Laravel</span>
-    <span>Spring Boot</span>
-    <span>MySQL</span>
+
+  <div class="skills-wrap">
+
+    <!-- Languages -->
+    <div class="skill-category">
+      <div class="skill-cat-label">Languages</div>
+
+      <div class="skills-row">
+        <div class="skill-chip">
+          <i class="fa-brands fa-java"></i>
+          <span>Java</span>
+        </div>
+
+        <div class="skill-chip">
+          <i class="fa-brands fa-js"></i>
+          <span>JavaScript</span>
+        </div>
+
+        <div class="skill-chip">
+          <i class="fa-brands fa-php"></i>
+          <span>PHP</span>
+        </div>
+
+        <div class="skill-chip">
+          <i class="fa-brands fa-python"></i>
+          <span>Python</span>
+        </div>
+
+        <div class="skill-chip">
+          <i class="fa-brands fa-dart"></i>
+          <span>Dart</span>
+        </div>
+
+        <div class="skill-chip">
+          <i class="fa-brands fa-ruby"></i>
+          <span>Ruby</span>
+        </div>
+      </div>
+    </div>
+
+    <!-- Backend -->
+    <div class="skill-category">
+      <div class="skill-cat-label">Backend</div>
+
+      <div class="skills-row">
+        <div class="skill-chip">
+          <i class="fa-brands fa-laravel"></i>
+          <span>Laravel</span>
+        </div>
+
+        <div class="skill-chip">
+          <i class="fa-solid fa-leaf"></i>
+          <span>Spring Boot</span>
+        </div>
+
+        <div class="skill-chip">
+          <i class="fa-solid fa-database"></i>
+          <span>MySQL</span>
+        </div>
+      </div>
+    </div>
+
   </div>
 </section>
 
