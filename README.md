@@ -45,16 +45,6 @@ A travel-based platform for solo female travelers to explore safely and plan jou
 
 ---
 
-## 📸 Screenshots
-
-### 🏠 Home Page
-![Home](./assets/screenshots/hero.png)
-
-### 📊 About Section
-![About](./assets/screenshots/aboutMe.png)
-
----
-
 ## 🎯 Goals
 
 - Improve backend development skills  
