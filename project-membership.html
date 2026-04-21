@@ -1,0 +1,202 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Membership Management System | Nuha Rilwan</title>
+
+  <link rel="stylesheet" href="css/variables.css">
+  <link rel="stylesheet" href="css/styles.css">
+  <link href="https://fonts.googleapis.com/css2?family=Cormorant+Garamond:ital,wght@0,300;0,400;0,600;1,300;1,400&family=DM+Sans:wght@300;400;500&display=swap" rel="stylesheet">
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.0/css/all.min.css">
+
+
+</head>
+<body>
+
+<!-- NAV -->
+<nav class="navbar">
+  <div class="nav-left">
+    <div class="nav-text">
+      <h1>Nuha Rilwan</h1>
+      <p>Software Engineer</p>
+    </div>
+  </div>
+  <ul>
+    <li><a href="index.html#about">About</a></li>
+    <li><a href="index.html#projects">Projects</a></li>
+    <li><a href="index.html#skills">Skills</a></li>
+  </ul>
+</nav>
+
+<div class="page-wrapper">
+
+  <!-- BACK -->
+  <a class="back-link" href="index.html">
+    <i class="fa-solid fa-arrow-left"></i> Back to Portfolio
+  </a>
+
+  <!-- PROJECT HEADER -->
+  <div class="project-header">
+    <div class="project-eyebrow">Membership Management / Web Application</div>
+    <h1>Membership<em>System</em></h1>
+    <p class="subtitle">
+      A comprehensive membership management system designed to streamline the process of managing member information, subscriptions, and communications for organizations.
+    </p>
+    <div class="header-meta">
+      <span class="meta-chip"><i class="fa-solid fa-users"></i> Individual Project</span>
+      <span class="meta-chip"><i class="fa-solid fa-calendar"></i> 2023</span>
+      <span class="meta-chip"><i class="fa-solid fa-graduation-cap"></i> Certification Project</span>
+    </div>
+  </div>
+
+  <!-- ROW 1: Description + Skills -->
+  <div class="detail-grid" style="margin-bottom:24px;">
+
+    <!-- DESCRIPTION -->
+    <div class="detail-card desc-card">
+  <div class="card-label"><i class="fa-solid fa-file-lines"></i> About the Project</div>
+  <p>
+    The Membership Management System is a backend web application designed to efficiently manage member records using a structured and scalable architecture. It supports full CRUD operations, allowing administrators to add, view, update, and delete member data.
+  </p>
+  <p>
+    Built with Spring Boot, the application follows a layered architecture that separates the controller, service, and data access layers. It integrates with a MySQL database for persistent storage and demonstrates key backend concepts such as RESTful API design and database integration.
+  </p>
+  <p>
+    While focused on core functionality, the system provides a foundation for future features like authentication, role-based access, and reporting.
+  </p>
+</div>
+
+    <!-- SKILLS LEARNED -->
+    <div class="detail-card">
+      <div class="card-label"><i class="fa-solid fa-lightbulb"></i> Skills Learned</div>
+      <div class="skills-grid">
+        <div class="skill-pill"><i class="fa-brands fa-java"></i> Java</div>
+        <div class="skill-pill"><i class="fa-solid fa-server"></i> Spring Boot</div>
+        <div class="skill-pill"><i class="fa-solid fa-database"></i> MySQL</div>
+        <div class="skill-pill"><i class="fa-brands fa-html5"></i> HTML </div>
+        <div class="skill-pill"><i class="fa-brands fa-css3-alt"></i> CSS</div>
+        <div class="skill-pill"><i class="fa-solid fa-code"></i> RESTful API Development</div>
+        <div class="skill-pill"><i class="fa-solid fa-database"></i> Database Design</div>
+      </div>
+    </div>
+
+  </div>
+
+  <!-- ROW 2: Gallery (full width) -->
+  <div class="detail-grid single" style="margin-bottom:24px;">
+    <div class="detail-card gallery-card">
+      <div class="card-label"><i class="fa-solid fa-images"></i> UI Screenshots</div>
+      <div class="gallery-grid">
+
+        <!-- Replace src with your actual screenshots -->
+        <div class="gallery-img" onclick="openLightbox(this)">
+          <img src="assets/images/projects/membership/login.png" alt="Membership System login"
+               onerror="this.parentElement.innerHTML='<div class=\'img-placeholder\'><i class=\'fa-solid fa-image\'></i><span>Login Page</span></div>'">
+          <div class="img-overlay"><i class="fa-solid fa-expand"></i></div>
+        </div>
+
+        <div class="gallery-img" onclick="openLightbox(this)">
+          <img src="assets/images/projects/membership/dashboard.png" alt="Membership System dashboard"
+               onerror="this.parentElement.innerHTML='<div class=\'img-placeholder\'><i class=\'fa-solid fa-image\'></i><span>Dashboard</span></div>'">
+          <div class="img-overlay"><i class="fa-solid fa-expand"></i></div>
+        </div>
+
+        <div class="gallery-img" onclick="openLightbox(this)">
+          <img src="assets/images/projects/membership/addnew.png" alt="Membership System profile"
+               onerror="this.parentElement.innerHTML='<div class=\'img-placeholder\'><i class=\'fa-solid fa-image\'></i><span>Profile Page</span></div>'">
+          <div class="img-overlay"><i class="fa-solid fa-expand"></i></div>
+        </div>
+
+      </div>
+    </div>
+  </div>
+
+  <!-- ROW 3: Demo Video + Links -->
+  <div class="detail-grid" style="margin-bottom:0;">
+
+    <!-- DEMO VIDEO -->
+    <!-- <div class="detail-card video-card">
+      <div class="card-label"><i class="fa-solid fa-circle-play"></i> Demo Video</div>
+      <div class="video-wrapper">
+        <div class="video-placeholder">
+          <i class="fa-solid fa-circle-play"></i>
+          <p>Demo Video</p>
+          <small>Replace this placeholder with a YouTube embed or local video file</small>
+        </div>
+      </div>
+    </div> -->
+
+    <!-- LINKS -->
+    <div class="detail-card" style="justify-content:flex-start;">
+      <div class="card-label"><i class="fa-solid fa-link"></i> Project Links</div>
+      <div class="links-row" style="margin-bottom: 32px;">
+        <a href="https://github.com/nuhaaaaaaa24/membershipManagementSystem" target="_blank" class="project-btn primary">
+          <i class="fa-brands fa-github"></i> View on GitHub
+        </a>
+        <!-- <a href="#" class="project-btn ghost">
+          <i class="fa-solid fa-arrow-up-right-from-square"></i> Live Demo
+        </a> -->
+      </div>
+
+      <!-- Extra context section in the same card -->
+      <div class="card-label" style="margin-top: 8px;"><i class="fa-solid fa-circle-info"></i> Quick Facts</div>
+      <div style="display:flex; flex-direction:column; gap:14px;">
+        <div style="display:flex; justify-content:space-between; align-items:center; padding-bottom:12px; border-bottom: 0.5px solid rgba(131,153,88,0.1);">
+          <span style="font-size:12px; letter-spacing:0.08em; text-transform:uppercase; color:rgba(247,244,213,0.35);">Type</span>
+          <span style="font-size:13px; color:rgba(247,244,213,0.75);">Java certification project</span>
+        </div>
+        <div style="display:flex; justify-content:space-between; align-items:center; padding-bottom:12px; border-bottom: 0.5px solid rgba(131,153,88,0.1);">
+          <span style="font-size:12px; letter-spacing:0.08em; text-transform:uppercase; color:rgba(247,244,213,0.35);">Domain</span>
+          <span style="font-size:13px; color:rgba(247,244,213,0.75);">Membership Management</span>
+        </div>
+        <div style="display:flex; justify-content:space-between; align-items:center; padding-bottom:12px; border-bottom: 0.5px solid rgba(131,153,88,0.1);">
+          <span style="font-size:12px; letter-spacing:0.08em; text-transform:uppercase; color:rgba(247,244,213,0.35);">Stack</span>
+          <span style="font-size:13px; color:rgba(247,244,213,0.75);">Java · Spring Boot · HTML/CSS</span>
+        </div>
+        <div style="display:flex; justify-content:space-between; align-items:center;">
+          <span style="font-size:12px; letter-spacing:0.08em; text-transform:uppercase; color:rgba(247,244,213,0.35);">Focus</span>
+          <span style="font-size:13px; color:rgba(247,244,213,0.75);">CRUD Operations</span>
+        </div>
+      </div>
+    </div>
+
+  </div>
+
+</div>
+
+<!-- LIGHTBOX -->
+<div class="lightbox" id="lightbox" onclick="closeLightbox()">
+  <button class="lightbox-close"><i class="fa-solid fa-xmark"></i></button>
+  <img id="lightbox-img" src="" alt="">
+</div>
+
+<!-- FOOTER -->
+<footer>
+  <div class="footer-left">
+    <p>&copy; 2026 Nuha Rilwan. All rights reserved.</p>
+  </div>
+  <div class="footer-links">
+    <a href="mailto:nuharilwan2424@gmail.com"><i class="fa-solid fa-envelope"></i> Email</a>
+    <a href="https://github.com/nuhaaaaaaa24" target="_blank"><i class="fa-brands fa-github"></i> GitHub</a>
+    <a href="https://www.linkedin.com/in/nuharilwan/" target="_blank"><i class="fa-brands fa-linkedin"></i> LinkedIn</a>
+  </div>
+</footer>
+
+<script>
+  function openLightbox(el) {
+    const img = el.querySelector('img');
+    if (!img) return;
+    document.getElementById('lightbox-img').src = img.src;
+    document.getElementById('lightbox').classList.add('open');
+  }
+  function closeLightbox() {
+    document.getElementById('lightbox').classList.remove('open');
+  }
+  document.addEventListener('keydown', e => {
+    if (e.key === 'Escape') closeLightbox();
+  });
+</script>
+
+</body>
+</html>
